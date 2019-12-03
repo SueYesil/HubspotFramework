@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11739" started-at="2019-12-03T04:38:20Z" finished-at="2019-12-03T04:38:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11739" started-at="2019-12-03T04:38:20Z" finished-at="2019-12-03T04:38:32Z">
+      <class name="com.hubspot.tests.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.tests.LoginTest@60704c]" name="setUp" is-config="true" duration-ms="7519" started-at="2019-12-03T04:38:20Z" finished-at="2019-12-03T04:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Invalidpassword()[pri:4, instance:com.hubspot.tests.LoginTest@60704c]" name="Invalidpassword" duration-ms="3863" started-at="2019-12-03T04:38:28Z" description="login test with correct username and invalid password" finished-at="2019-12-03T04:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Invalidpassword -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.hubspot.tests.LoginTest@60704c]" name="teardown" is-config="true" duration-ms="242" started-at="2019-12-03T04:38:32Z" finished-at="2019-12-03T04:38:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.hubspot.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
